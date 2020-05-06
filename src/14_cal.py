@@ -35,12 +35,13 @@ month = int(datetime.now().month)
 year = int(datetime.now().year)
 x = len(sys.argv)
 if x > 2:
-  month = int(sys.argv[1])
-  year = int(sys.argv[2])
+    month = int(sys.argv[1])
+    year = int(sys.argv[2])
 elif x == 2:
-  month = int(sys.argv[1])
+    month = int(sys.argv[1])
 else:
-  print('This program expects argurment in this format, for example: [1] [2029]')  
+    print(
+        'This program expects argurment in this format, for example: [1] [2029]')
 
 chosenCal = calendar.TextCalendar().formatmonth(year, month)
 print(chosenCal)

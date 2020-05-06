@@ -14,7 +14,7 @@ with open('src/foo.txt', 'r') as f:
     x = f.read()
     print(x)
     f.close()
-    
+
 # Open up a file called "bar.txt" (which doesn't exist yet) for
 # writing. Write three lines of arbitrary content to that file,
 # then close the file. Open up "bar.txt" and inspect it to make
