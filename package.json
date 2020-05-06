@@ -1,0 +1,23 @@
+{
+  "name": "Intro-Python-I",
+  "version": "1.0.0",
+  "description": "It's time to learn a new language! Python!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolls-3/Intro-Python-I.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolls-3/Intro-Python-I/issues"
+  },
+  "homepage": "https://github.com/tolls-3/Intro-Python-I#readme",
+  "dependencies": {
+    "mathjs": "^6.6.5"
+  }
+}
