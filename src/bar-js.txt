@@ -1,0 +1,3 @@
+Hello from bar file!
+ Another line?
+ And yet another line!

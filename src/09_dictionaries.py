@@ -51,4 +51,4 @@ waypoints[0].update({
 # YOUR CODE HERE
 for x in waypoints:
     for k, v in x.items():
-        print(k, v)
+        print(v)
